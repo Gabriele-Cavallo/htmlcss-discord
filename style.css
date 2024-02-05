@@ -17,6 +17,7 @@
     min-height: 80px;
     justify-content: center;
     padding: 15px;
+    background-color: #3161e0;
 }
 .menù{
     display: flex;
@@ -26,26 +27,45 @@
 .col{
     border: 2px dashed black;
     padding: 10px;
+    display: flex;
+    align-items: center;
 }
 .logo{
     width: 20%;
+    height: 100%;
+    justify-content: flex-start;
 }
-.link{
+nav{
+    height: 100%;
     width: 60%;
+    justify-content: center;
 }
 ul{
     display: flex;
     list-style: none;
-    justify-content: center;
 }
 li a{
     padding: 0 20px;
     text-decoration: none;
+    color: white;
+    font-weight: 500;
 }
 .button{
     width: 20%;
     text-align: end;
+    height: 100%;
+    justify-content: flex-end;
 }
+.log-in{
+    background-color: white;
+    border-radius: 40px;
+    padding: 15px;
+    border: transparent;
+}
+.log-in:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
 
 /* ---- Header Hero ---- */
 
