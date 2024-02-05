@@ -185,15 +185,13 @@ h3 , h4{
 }
 /* ---- Footer ---- */
 
-.bot{
-    border-bottom: 4px #4a5882 solid;
-}
 .column{
     display: flex;
     flex-flow: row wrap;
     min-width: 1200px;
     padding-top: 10px;
     padding-bottom: 40px;
+    border-bottom: 2px #4a5882 solid;
 }
 .obj{
     min-height: 580px;
@@ -211,7 +209,6 @@ footer li{
 }
 .cl0{
     width: 40%;
-    padding-left: 80px;
 }
 .cl{
     width: 15%;
@@ -240,10 +237,6 @@ footer li{
     min-height: 80px;
     justify-content: space-between;
     align-items: center;
-}
-.btn{
-    padding: 5px;
-    border: 2px dashed black;
 }
 
 /* ---- Colors palette ---- */
