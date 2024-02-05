@@ -12,6 +12,7 @@
     display: flex;
     min-height: 80px;
     justify-content: center;
+    padding: 15px;
 }
 .menù{
     display: flex;
@@ -27,7 +28,15 @@
 }
 .link{
     width: 60%;
-    text-align: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+li a{
+    padding: 0 20px;
+    text-decoration: none;
 }
 .button{
     width: 20%;
