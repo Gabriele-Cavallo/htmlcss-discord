@@ -8,6 +8,7 @@
 
 *{
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 /* ---- Header Menù ---- */
@@ -17,7 +18,7 @@
     min-height: 80px;
     justify-content: center;
     padding: 15px;
-    background-color: #3161e0;
+    background-color: #255EE9;
 }
 .menù{
     display: flex;
@@ -25,7 +26,6 @@
     width: 1200px;
 }
 .col{
-    border: 2px dashed black;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -47,7 +47,6 @@ ul{
 li a{
     padding: 0 20px;
     text-decoration: none;
-    color: white;
     font-weight: 500;
 }
 .button{
@@ -61,6 +60,7 @@ li a{
     border-radius: 40px;
     padding: 15px;
     border: transparent;
+    color: black;
 }
 .log-in:hover{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -70,13 +70,13 @@ li a{
 /* ---- Header Hero ---- */
 
 .jumbo{
-    background-color: #3161e0;
+    background-color: #255EE9;
     display: flex;
     justify-content: center;
 }
 .hero{
     min-height: 500px;
-    min-width: 1200px;
+    max-width: 1200px;
     padding: 50px 0;
     display: flex;
     justify-content: center;
@@ -84,9 +84,21 @@ li a{
     background-size: cover;
 }
 .box{
-    border: 2px dashed black;
+    text-align: center;
     min-height: 400px;
-    min-width: 910px;
+    padding: 100px 300px;
+    line-height: 1.5;
+}
+.title *{
+    margin-bottom: 20px;
+}
+.inline{
+    display: inline-block;
+}
+.browser{
+    background-color: black;
+    color: white;
+    margin-left: 20px;
 }
 
 /* ---- General ---- */
