@@ -178,6 +178,9 @@ h3 , h4{
 }
 /* ---- Footer ---- */
 
+.dark{
+    background-color: #23272a;
+}
 .column{
     display: flex;
     flex-flow: row wrap;
