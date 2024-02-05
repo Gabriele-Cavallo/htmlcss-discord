@@ -77,7 +77,7 @@ header li a{
 }
 .hero{
     min-height: 500px;
-    max-width: 1200px;
+    max-width: 1500px;
     padding: 50px 0;
     display: flex;
     justify-content: center;
