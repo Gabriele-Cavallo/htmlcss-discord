@@ -216,7 +216,7 @@ footer li{
 .social{
     display: flex;
     justify-content: space-between;
-    max-width: 40%;
+    max-width: 30%;
 }
 .bot-banner{
     display: flex;
@@ -229,45 +229,4 @@ footer li{
     min-height: 80px;
     justify-content: space-between;
     align-items: center;
-}
-
-/* ---- Colors palette ---- */
-
-.azure{
-    background-color: #add8e6;
-}
-.yellow{
-    background-color: #daa520;
-}
-.blue{
-    background-color: #00008b;
-}
-.hardpink{
-    background-color: #ee82ee;
-}
-.softpink{
-    background-color: #ffc0cb;
-}
-.lightblue{
-    background-color: #1e90ff;
-}
-
-.green{
-    background-color: #228b22;
-}
-.dark{
-    background-color: #23272a;
-}
-.aquamarine{
-    background-color: #20b2aa;
-    border: 2px dashed white;
-}
-.salmon{
-    background-color: #f08080;
-}
-.lightpink{
-    background-color: #ffb6c1;
-}
-.lightaqua{
-    background-color: #7fffd4;
 }
