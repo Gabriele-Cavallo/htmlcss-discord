@@ -8,7 +8,7 @@
 
 *{
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: black;
 }
 
 /* ---- Header Menù ---- */
@@ -107,6 +107,9 @@ section{
     display: flex;
     justify-content: center;
 }
+h1 , h2{
+    font-size: 32px;
+}
 
 /* ---- Main ---- */
 
@@ -115,19 +118,27 @@ section{
 }
 .row{
     display: flex;
-    padding: 50px 0;
-    min-width: 1200px;
+    padding: 50px 100px;
+    max-width: 1200px;
     flex-flow: row wrap;
 }
 .object{
+    line-height: 1.5;
+    display: flex;
     min-height: 500px;
-    border: 2px dashed black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.object > h2{
+    margin-bottom: 20px;
 }
 .first{
     width: 60%;
 }
 .second{
     width: 40%;
+    padding: 60px;
 }
 .third{
     width: 40%;
