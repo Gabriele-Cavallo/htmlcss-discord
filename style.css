@@ -116,9 +116,6 @@ h3 , h4{
 
 /* ---- Main ---- */
 
-.top{
-    border-top: 4px solid #add8e6;
-}
 .row{
     display: flex;
     padding: 50px 0;
