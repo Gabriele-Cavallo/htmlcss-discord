@@ -43,7 +43,7 @@ ul{
     display: flex;
     list-style: none;
 }
-li a{
+header li a{
     padding: 0 20px;
     text-decoration: none;
     font-weight: 500;
@@ -110,6 +110,12 @@ section{
 }
 h1 , h2{
     font-size: 32px;
+}
+h3 , h4 , .lang{
+    margin-bottom: 20px;
+}
+h3 , h4{
+    color: #8ea1e1;
 }
 
 /* ---- Main ---- */
@@ -192,21 +198,30 @@ h1 , h2{
 .obj{
     min-height: 580px;
     border: 2px dashed black;
+    padding: 40px;
+}
+li a{
+    text-decoration: none;
+    color: white;
 }
 .cl0{
     width: 40%;
 }
-.cl1{
+.cl{
     width: 15%;
+    
 }
-.cl2{
-    width: 15%;
+.lang{
+    display: flex;
+    align-items: center;
 }
-.cl3{
-    width: 15%;
+.flag{
+    max-height: 20px;
 }
-.cl4{
-    width: 15%;
+.social{
+    display: flex;
+    justify-content: space-between;
+    max-width: 40%;
 }
 .bot-banner{
     display: flex;
