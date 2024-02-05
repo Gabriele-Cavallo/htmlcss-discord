@@ -166,7 +166,7 @@ h3 , h4{
     background-size: contain;
     background-repeat: no-repeat;
     width: 350px;
-    height: 65px;
+    height: 70px;
     margin-bottom: 20px;
 }
 .grey{
@@ -186,11 +186,11 @@ h3 , h4{
     flex-flow: row wrap;
     min-width: 1200px;
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     border-bottom: 2px #4a5882 solid;
 }
 .obj{
-    min-height: 580px;
+    min-height: 400px;
 }
 footer ul{
     list-style: none;
@@ -223,7 +223,7 @@ footer li{
 }
 .bot-banner{
     display: flex;
-    padding: 30px 0px 0px;   
+    padding: 30px 0px 80px;   
     justify-content: center;
 }
 .ftr{
