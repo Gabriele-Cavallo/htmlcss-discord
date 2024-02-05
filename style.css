@@ -39,7 +39,7 @@ nav{
     width: 60%;
     justify-content: center;
 }
-ul{
+header ul{
     display: flex;
     list-style: none;
 }
@@ -186,7 +186,7 @@ h3 , h4{
 /* ---- Footer ---- */
 
 .bot{
-    border-bottom: 4px white solid;
+    border-bottom: 4px #4a5882 solid;
 }
 .column{
     display: flex;
@@ -197,15 +197,21 @@ h3 , h4{
 }
 .obj{
     min-height: 580px;
-    border: 2px dashed black;
-    padding: 40px;
+    padding-right: 30px;
 }
-li a{
+footer ul{
+    list-style: none;
+}
+footer li a{
     text-decoration: none;
     color: white;
 }
+footer li{
+    margin-bottom: 20px;
+}
 .cl0{
     width: 40%;
+    padding-left: 80px;
 }
 .cl{
     width: 15%;
