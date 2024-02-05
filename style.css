@@ -1,0 +1,183 @@
+/* ---- Reset ---- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---- Header Menù ---- */
+
+.banner{
+    display: flex;
+    min-height: 80px;
+    justify-content: center;
+}
+.menù{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+}
+.col{
+    border: 2px dashed black;
+    padding: 10px;
+}
+.logo{
+    width: 20%;
+}
+.link{
+    width: 60%;
+    text-align: center;
+}
+.button{
+    width: 20%;
+    text-align: end;
+}
+
+/* ---- Header Hero ---- */
+
+.hero{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    border: 2px dashed black;
+    min-height: 400px;
+    min-width: 910px;
+}
+
+/* ---- General ---- */
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+/* ---- Main ---- */
+
+.top{
+    border-top: 4px solid #add8e6;
+}
+.row{
+    display: flex;
+    padding: 50px 0;
+    min-width: 1200px;
+    flex-flow: row wrap;
+}
+.object{
+    min-height: 500px;
+    border: 2px dashed black;
+}
+.first{
+    width: 60%;
+}
+.second{
+    width: 40%;
+}
+.third{
+    width: 40%;
+}
+.fourth{
+    width: 60%;
+}
+.fifth{
+    width: 60%;
+}
+.sixth{
+    width: 40%;
+}
+.seventh{
+    min-height: 900px;
+    width: 100%;
+}
+/* ---- Footer ---- */
+
+.bot{
+    border-bottom: 4px white solid;
+}
+.column{
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 1200px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.obj{
+    min-height: 580px;
+    border: 2px dashed black;
+}
+.cl0{
+    width: 40%;
+}
+.cl1{
+    width: 15%;
+}
+.cl2{
+    width: 15%;
+}
+.cl3{
+    width: 15%;
+}
+.cl4{
+    width: 15%;
+}
+.bot-banner{
+    display: flex;
+    padding: 30px 0px 0px;   
+    justify-content: center;
+}
+.ftr{
+    display: flex;
+    width: 1200px;
+    min-height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    padding: 5px;
+    border: 2px dashed black;
+}
+
+/* ---- Colors palette ---- */
+
+.azure{
+    background-color: #add8e6;
+}
+.yellow{
+    background-color: #daa520;
+}
+.blue{
+    background-color: #00008b;
+}
+.hardpink{
+    background-color: #ee82ee;
+}
+.softpink{
+    background-color: #ffc0cb;
+}
+.lightblue{
+    background-color: #1e90ff;
+}
+.grey{
+    background-color: #d3d3d3;
+}
+.green{
+    background-color: #228b22;
+}
+.dark{
+    background-color: #23272a;
+}
+.aquamarine{
+    background-color: #20b2aa;
+    border: 2px dashed white;
+}
+.salmon{
+    background-color: #f08080;
+}
+.lightpink{
+    background-color: #ffb6c1;
+}
+.lightaqua{
+    background-color: #7fffd4;
+}
