@@ -4,11 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-*{
     font-family: 'Roboto', sans-serif;
-    color: black;
+}
+header, footer{
+    color: white;
 }
 
 /* ---- Header Menù ---- */
@@ -48,6 +47,7 @@ li a{
     padding: 0 20px;
     text-decoration: none;
     font-weight: 500;
+    color: white;
 }
 .button{
     width: 20%;
@@ -108,7 +108,7 @@ section{
     display: flex;
     justify-content: center;
 }
-h1 , h2,{
+h1 , h2{
     font-size: 32px;
 }
 
