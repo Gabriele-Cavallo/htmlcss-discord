@@ -114,7 +114,9 @@ h3 , h4 , .lang{
 h3 , h4{
     color: #8ea1e1;
 }
-
+img{
+    max-width: 100%;
+}
 /* ---- Main ---- */
 
 .row{
